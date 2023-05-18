@@ -9,7 +9,7 @@ for (const slide of slides) {
 }
 
         
-    function clearActiveClasses() {
+    const clearActiveClasses = () => {
     slides.forEach((slide) => {
         slide.classList.remove('active')
     })
